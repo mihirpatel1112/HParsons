@@ -1,0 +1,103 @@
+[
+    {
+      "Name": "Serenity Chapel",
+      "Location": "15 Peace Avenue, Sydney, NSW 2000",
+      "Capacity": 150,
+      "ShortDescription": "A tranquil setting for dignified farewell ceremonies.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Everlasting Rest Venue",
+      "Location": "21 Eternal Way, Melbourne, VIC 3000",
+      "Capacity": 200,
+      "ShortDescription": "A modern venue with serene ambiance and excellent facilities.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Harmony Funeral Hall",
+      "Location": "9 Harmony Street, Brisbane, QLD 4000",
+      "Capacity": 120,
+      "ShortDescription": "Known for its intimate and peaceful environment.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Reflection Memorial Centre",
+      "Location": "33 Reflection Drive, Perth, WA 6000",
+      "Capacity": 250,
+      "ShortDescription": "Spacious venue offering comprehensive memorial services.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Tranquil Haven Chapel",
+      "Location": "77 Haven Lane, Adelaide, SA 5000",
+      "Capacity": 180,
+      "ShortDescription": "A picturesque venue surrounded by beautiful gardens.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Eternal Grace Memorial Hall",
+      "Location": "55 Grace Court, Hobart, TAS 7000",
+      "Capacity": 100,
+      "ShortDescription": "A serene and intimate venue with modern amenities.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Peaceful Rest Chapel",
+      "Location": "5 Peace Street, Canberra, ACT 2600",
+      "Capacity": 130,
+      "ShortDescription": "Ideal for quiet and respectful ceremonies.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Heritage Funeral Centre",
+      "Location": "12 Heritage Road, Darwin, NT 0800",
+      "Capacity": 170,
+      "ShortDescription": "A historic location with timeless charm.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Sanctuary Memorial Hall",
+      "Location": "88 Sanctuary Boulevard, Gold Coast, QLD 4217",
+      "Capacity": 140,
+      "ShortDescription": "A contemporary venue with a calming environment.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    },
+    {
+      "Name": "Elysian Fields Chapel",
+      "Location": "19 Elysian Way, Newcastle, NSW 2300",
+      "Capacity": 220,
+      "ShortDescription": "Offers state-of-the-art facilities for farewell ceremonies.",
+      "Images": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ]
+    }
+  ]
+  

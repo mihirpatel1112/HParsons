@@ -1,0 +1,8 @@
+---
+Name: myapiroutes
+After:
+  - '#rootroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'api/venues': 'App\Controller\VenueController'
