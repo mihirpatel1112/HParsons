@@ -15,7 +15,7 @@ function Home() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     useEffect(() => {
-        axios.get('http://localhost/task-3(a)/api/venues')
+        axios.get('http://localhost/task-3(a)/api/venues')//enter your backend url here
             .then(response => {
                 setVenues(response.data);
             })
