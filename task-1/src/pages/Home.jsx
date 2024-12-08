@@ -70,8 +70,6 @@ function Home() {
     searchTerm,
   ]);
 
- 
-
   return (
     <div>
       {/* logo */}
@@ -193,6 +191,7 @@ function Home() {
 
       {/* desktop filters */}
       <div className="sm:flex hidden flex-wrap justify-center gap-4 p-4">
+        {/* Filter by name */}
         <select
           value={nameFilter}
           onChange={(e) => setNameFilter(e.target.value)}
@@ -205,6 +204,8 @@ function Home() {
             </option>
           ))}
         </select>
+
+        {/* Filter by capacity */}
         <select
           value={capacityFilter}
           onChange={(e) => setCapacityFilter(e.target.value)}
@@ -217,6 +218,8 @@ function Home() {
             </option>
           ))}
         </select>
+
+        {/* Filter by address */}
         <select
           value={locationFilter}
           onChange={(e) => setLocationFilter(e.target.value)}
@@ -229,6 +232,8 @@ function Home() {
             </option>
           ))}
         </select>
+
+        {/* Filter by suburb or postal code */}
         <input
           type="text"
           placeholder="Suburb or Postal Code"
@@ -236,6 +241,8 @@ function Home() {
           onChange={(e) => setSuburbOrPostalCode(e.target.value.toLowerCase())}
           className="border-2 border-gray-300 p-2 rounded-2xl text-gray-600 focus:outline-none focus:ring-2 focus:ring-customLightBlue w-full sm:w-1/5"
         />
+
+        {/* Clear filters button */}
         <button
           onClick={() => {
             setNameFilter('');
@@ -248,6 +255,14 @@ function Home() {
           Clear Filters
         </button>
       </div>
+
+      {/* No results message */}
+      {filteredVenues.length === 0 && (
+        <div className="text-center py-8">
+          <p className="text-xl text-gray-600">No venues match your search criteria</p>
+          <p className="text-gray-500 mt-2">Try adjusting your filters or search terms</p>
+        </div>
+      )}
 
       {/* venue cards grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-4">
